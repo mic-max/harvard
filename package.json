@@ -1,0 +1,27 @@
+{
+  "name": "harvard",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~2.0.1",
+    "@fitbit/sdk-cli": "^1.0.2"
+  },
+  "fitbit": {
+    "appUUID": "d425ef79-4d9e-4888-9302-097376895ff7",
+    "appType": "app",
+    "appDisplayName": "Harvard",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
