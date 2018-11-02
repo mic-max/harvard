@@ -1,12 +1,12 @@
 .defaultText {
-  font-size: 32;
-  font-family: System-Regular;
-  font-weight: regular;
-  text-length: 32;
+	font-size: 32;
+	font-family: System-Regular;
+	font-weight: regular;
+	text-length: 32;
 }
 
 #background {
-  width: 100%;
-  height: 100%;
-  fill: white;
+	width: 100%;
+	height: 100%;
+	fill: white;
 }

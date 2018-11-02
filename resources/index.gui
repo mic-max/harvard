@@ -1,3 +1,19 @@
 <svg>
-  <rect id="background" />
+  <svg id='screen0'>
+	  <text x='50%' y='10%'
+			font-family='System-Regular' fill='white'
+			font-size='30' font-weight='bold'
+			text-anchor='middle'
+		>Select Diabetes</text>
+		<use id='type2button' href='#square-button' y='50%' fill='fb-blue'>
+			<set href='#text' attributeName='text-buffer' to='Type 2' />
+		</use>
+		 <rect id='button0' pointer-events='all' width='10%' height='10%' fill='red' />
+  </svg>
+  <svg id='screen1' display='none'>
+    <rect id='button1' pointer-events='all' width='10%' height='10%' fill='blue' />
+  </svg>
+  <svg id='screen2' display='none'>
+    <rect id='button2' pointer-events='all' width='10%' height='10%' fill='green' />
+  </svg>
 </svg>
